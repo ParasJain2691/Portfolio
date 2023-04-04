@@ -1,0 +1,29 @@
+
+#container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.name{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.dp{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+@media screen and (max-width: 900px) {
+  .intro .col-md-8{
+    order:2;
+  }
+  .intro .dp{
+    order:1;
+    padding:10px;
+  }
+  .profile{
+    width:100vw;
+  }
+  
+}
